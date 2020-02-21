@@ -1,9 +1,3 @@
-# Build a nested HoH of the classification of biological life on Earth based
-# on these commented-out snippets assigned to PORTION_1-PORTION_4. Return
-# that HoH as the return value for the method "naming_system."
-#
-# The tests will guide your construction.
-#
 # PORTION_1 = {
 #   label: "Kingdom",
 #   sub_category: {
@@ -41,5 +35,5 @@ def naming_system
   #  Species
   # So, if we have the "Kingdom" node we should be able to "tunnel" into the
   # HoH all the way to Species!
-  return {Kingdom: PORTION_1, Order: PORTION_2, Family: PORTION_3, Species: PORTION_4}
+  return {label: "Kingdom"}
 end
